@@ -795,6 +795,12 @@ blockquote {
 .image {
   position: relative;
   z-index: 100;
+  max-width: 100%;
+  border-radius: 80px;
+  opacity: 1;
+  -webkit-filter: brightness(163%);
+  filter: brightness(163%);
+  mix-blend-mode: luminosity;
 }
 
 .dots-2 {
@@ -1504,11 +1510,13 @@ blockquote {
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius: 20px;
-    background-color: #37446f;
+    background-color: #ee7879;
   }
 
   .menu-button {
     padding: 0px;
+    border-radius: 4px;
+    background-color: #cae7df;
   }
 
   .menu-button.w--open {
@@ -1546,7 +1554,7 @@ blockquote {
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius: 20px;
-    background-color: #37446f;
+    background-color: #ee7879;
   }
 
   .burger-icon {
@@ -1580,7 +1588,7 @@ blockquote {
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius: 20px;
-    background-color: #37446f;
+    background-color: #ee7879;
   }
 
   .nav-link {
