@@ -1643,7 +1643,8 @@ blockquote {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 0px;
-    background-color: #fff;
+    background-color: #cae7df;
+;
     box-shadow: 0 20px 60px 0 rgba(55, 68, 111, 0.4);
   }
 
