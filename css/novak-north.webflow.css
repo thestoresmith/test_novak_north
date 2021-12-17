@@ -787,6 +787,7 @@ blockquote {
 .hero-image {
   position: relative;
   max-width: 380px;
+  opacity: 1;
 }
 
 .dots {
@@ -805,10 +806,8 @@ blockquote {
   z-index: 100;
   max-width: 80%;
   border-radius: 80px;
-  opacity: 0.85;
-  -webkit-filter: brightness(163%);
-  filter: brightness(163%);
-  mix-blend-mode: luminosity;
+  opacity: 1;
+  mix-blend-mode: normal;
 }
 
 .dots-2 {
@@ -1643,8 +1642,7 @@ blockquote {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 0px;
-    background-color: #cae7df;
-;
+    background-color: #fff;
     box-shadow: 0 20px 60px 0 rgba(55, 68, 111, 0.4);
   }
 
