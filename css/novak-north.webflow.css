@@ -380,8 +380,9 @@ blockquote {
 }
 
 .text.list {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 20px;
+  padding-right: 5
+  px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -1663,6 +1664,8 @@ blockquote {
 }
 
 .list-item {
+  
+  padding-left: 10px;
   padding-bottom: 10px;
   text-align: left;
 }
