@@ -380,9 +380,8 @@ blockquote {
 }
 
 .text.list {
-  padding-left: 20px;
-  padding-right: 5
-  px;
+  padding-right: 15px;
+  padding-left: 15px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -999,8 +998,8 @@ blockquote {
   grid-auto-rows: minmax(auto, 1fr);
   grid-column-gap: 14px;
   grid-row-gap: 14px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -1664,8 +1663,6 @@ blockquote {
 }
 
 .list-item {
-  
-  padding-left: 10px;
   padding-bottom: 10px;
   text-align: left;
 }
@@ -1859,6 +1856,10 @@ blockquote {
 
   .small-text.white {
     opacity: 1;
+  }
+
+  .h2.bottom-margin {
+    width: 100%;
   }
 
   .h1.bottom-margin {
@@ -2258,6 +2259,10 @@ blockquote {
     max-width: 100%;
   }
 
+  .feature.feature-list {
+    width: 100%;
+  }
+
   .main-grid {
     grid-row-gap: 14px;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -2337,7 +2342,7 @@ blockquote {
   }
 }
 
-#w-node-_4ad598ae-44e8-6337-2525-0fca7d645890-7af434ec {
+#w-node-_4ad598ae-44e8-6337-2525-0fca7d645890-3c176998 {
   -ms-grid-column-span: 3;
   grid-column-end: 4;
   -ms-grid-column: 1;
@@ -2348,7 +2353,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-7af434ec {
+#w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-3c176998 {
   -ms-grid-column-span: 3;
   grid-column-end: 7;
   -ms-grid-column: 4;
@@ -2359,7 +2364,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-7af434ec {
+#w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-3c176998 {
   -ms-grid-column-span: 3;
   grid-column-end: 10;
   -ms-grid-column: 7;
@@ -2370,7 +2375,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-7af434ec {
+#w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-3c176998 {
   -ms-grid-column-span: 3;
   grid-column-end: 13;
   -ms-grid-column: 10;
@@ -2381,7 +2386,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-7af434ec {
+#w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-3c176998 {
   -ms-grid-column-span: 12;
   grid-column-end: 13;
   -ms-grid-column: 1;
@@ -2392,7 +2397,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-_677fc3f3-5ac2-7856-97c9-3a1956a0fb7b-93f434f3 {
+#w-node-_677fc3f3-5ac2-7856-97c9-3a1956a0fb7b-3d17699e {
   -ms-grid-column-span: 7;
   grid-column-end: 8;
   -ms-grid-column: 1;
@@ -2403,7 +2408,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-aee9dad7-7016-271f-2696-8c749c9daa21-93f434f3 {
+#w-node-aee9dad7-7016-271f-2696-8c749c9daa21-3d17699e {
   -ms-grid-column-span: 4;
   grid-column-end: 13;
   -ms-grid-column: 9;
@@ -2414,7 +2419,7 @@ blockquote {
   grid-row-start: 1;
 }
 
-#w-node-_15f59b85-2214-2a69-599d-49110baf05de-93f434f3 {
+#w-node-_15f59b85-2214-2a69-599d-49110baf05de-3d17699e {
   -ms-grid-column-span: 4;
   grid-column-end: 13;
   -ms-grid-column: 9;
@@ -2425,7 +2430,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-_4a420790-a3d6-4840-4173-75202830c464-a9f434f7 {
+#w-node-_4a420790-a3d6-4840-4173-75202830c464-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -2436,7 +2441,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-_4a420790-a3d6-4840-4173-75202830c467-a9f434f7 {
+#w-node-_4a420790-a3d6-4840-4173-75202830c467-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 3;
   -ms-grid-column: 2;
@@ -2447,7 +2452,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-_4a420790-a3d6-4840-4173-75202830c46a-a9f434f7 {
+#w-node-_4a420790-a3d6-4840-4173-75202830c46a-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 4;
   -ms-grid-column: 3;
@@ -2458,7 +2463,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-_4a4a4fc7-b200-98e8-578a-6f22dd98250a-a9f434f7 {
+#w-node-_4a4a4fc7-b200-98e8-578a-6f22dd98250a-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -2469,7 +2474,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-ec5bd115-e475-f17d-c72d-b7058c0a7421-a9f434f7 {
+#w-node-ec5bd115-e475-f17d-c72d-b7058c0a7421-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 4;
   -ms-grid-column: 3;
@@ -2480,7 +2485,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-_7891782b-82cd-f298-b719-d74280075426-a9f434f7 {
+#w-node-_7891782b-82cd-f298-b719-d74280075426-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 3;
   -ms-grid-column: 2;
@@ -2491,7 +2496,7 @@ blockquote {
   grid-row-start: 2;
 }
 
-#w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-a9f434f7 {
+#w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-761769a2 {
   -ms-grid-column-span: 1;
   grid-column-end: 5;
   -ms-grid-column: 4;
@@ -2503,7 +2508,7 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-f2f38134-a5b8-948a-b4e4-d302b98c6dc8-7af434ec {
+  #w-node-f2f38134-a5b8-948a-b4e4-d302b98c6dc8-3c176998 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2514,24 +2519,24 @@ blockquote {
     grid-row-start: 2;
   }
 
-  #w-node-_7201a9bb-7f9a-326f-cbc5-0b50b872c752-7af434ec {
+  #w-node-_7201a9bb-7f9a-326f-cbc5-0b50b872c752-3c176998 {
     -ms-grid-column-align: center;
     justify-self: center;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645890-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645890-3c176998 {
     -ms-grid-column-span: 5;
     grid-column-end: 5;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-3c176998 {
     -ms-grid-column: 5;
     grid-column-start: 5;
     -ms-grid-column-span: 4;
     grid-column-end: 9;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-3c176998 {
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-row-span: 1;
@@ -2542,7 +2547,7 @@ blockquote {
     grid-column-end: 5;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-3c176998 {
     -ms-grid-column: 5;
     grid-column-start: 5;
     -ms-grid-row: 2;
@@ -2553,7 +2558,7 @@ blockquote {
     grid-column-end: 9;
   }
 
-  #w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-7af434ec {
+  #w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-3c176998 {
     -ms-grid-column-span: 8;
     grid-column-end: 9;
     -ms-grid-column: 1;
@@ -2566,7 +2571,7 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-7af434ec {
+  #w-node-bdf3ecae-7039-ce3a-8e8b-a84b71566bf6-3c176998 {
     -ms-grid-column-span: 8;
     grid-column-end: 9;
     -ms-grid-column: 1;
@@ -2588,12 +2593,12 @@ blockquote {
     grid-row-start: 1;
   }
 
-  #w-node-aee9dad7-7016-271f-2696-8c749c9daa21-93f434f3 {
+  #w-node-aee9dad7-7016-271f-2696-8c749c9daa21-3d17699e {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c454-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c454-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2604,7 +2609,7 @@ blockquote {
     grid-row-start: 2;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c457-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c457-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 3;
     -ms-grid-column: 2;
@@ -2615,7 +2620,7 @@ blockquote {
     grid-row-start: 2;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c45a-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c45a-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 4;
     -ms-grid-column: 3;
@@ -2626,7 +2631,7 @@ blockquote {
     grid-row-start: 2;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c45d-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c45d-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2637,7 +2642,7 @@ blockquote {
     grid-row-start: 4;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c460-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c460-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 3;
     -ms-grid-column: 2;
@@ -2648,7 +2653,7 @@ blockquote {
     grid-row-start: 4;
   }
 
-  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf8b-a9f434f7 {
+  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf8b-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2659,7 +2664,7 @@ blockquote {
     grid-row-start: 3;
   }
 
-  #w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-a9f434f7 {
+  #w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-761769a2 {
     -ms-grid-row: 4;
     grid-row-start: 4;
     -ms-grid-row-span: 1;
@@ -2670,7 +2675,7 @@ blockquote {
     grid-column-end: 2;
   }
 
-  #w-node-_3ca21443-5fb9-aafa-12c6-1cfdaeb7c5d4-a9f434f7 {
+  #w-node-_3ca21443-5fb9-aafa-12c6-1cfdaeb7c5d4-761769a2 {
     -ms-grid-column-span: 3;
     grid-column-end: 4;
     -ms-grid-column: 1;
@@ -2683,7 +2688,7 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d645897-3c176998 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 4;
@@ -2694,14 +2699,14 @@ blockquote {
     grid-row-end: 3;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-3c176998 {
     -ms-grid-row: 3;
     grid-row-start: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 4;
   }
 
-  #w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-7af434ec {
+  #w-node-_4ad598ae-44e8-6337-2525-0fca7d6458a5-3c176998 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 4;
@@ -2712,14 +2717,14 @@ blockquote {
     grid-row-end: 5;
   }
 
-  #w-node-_677fc3f3-5ac2-7856-97c9-3a1956a0fb7b-93f434f3 {
+  #w-node-_677fc3f3-5ac2-7856-97c9-3a1956a0fb7b-3d17699e {
     -ms-grid-column-span: 5;
     grid-column-end: 5;
     -ms-grid-row-span: 2;
     grid-row-end: 2;
   }
 
-  #w-node-aee9dad7-7016-271f-2696-8c749c9daa21-93f434f3 {
+  #w-node-aee9dad7-7016-271f-2696-8c749c9daa21-3d17699e {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 4;
@@ -2730,7 +2735,7 @@ blockquote {
     grid-row-end: 3;
   }
 
-  #w-node-_15f59b85-2214-2a69-599d-49110baf05de-93f434f3 {
+  #w-node-_15f59b85-2214-2a69-599d-49110baf05de-3d17699e {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 4;
@@ -2743,7 +2748,7 @@ blockquote {
     justify-self: stretch;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c458-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c458-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2754,7 +2759,7 @@ blockquote {
     grid-row-start: 3;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c45a-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c45a-761769a2 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -2765,14 +2770,14 @@ blockquote {
     grid-row-end: 5;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c45d-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c45d-761769a2 {
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 1;
     grid-column-end: 3;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c460-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c460-761769a2 {
     -ms-grid-row: 6;
     grid-row-start: 6;
     -ms-grid-row-span: 1;
@@ -2783,7 +2788,7 @@ blockquote {
     grid-column-end: 2;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c465-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c465-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 3;
     -ms-grid-column: 2;
@@ -2794,7 +2799,7 @@ blockquote {
     grid-row-start: 1;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c468-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c468-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2805,7 +2810,7 @@ blockquote {
     grid-row-start: 3;
   }
 
-  #w-node-_4a420790-a3d6-4840-4173-75202830c46a-a9f434f7 {
+  #w-node-_4a420790-a3d6-4840-4173-75202830c46a-761769a2 {
     -ms-grid-row: 4;
     grid-row-start: 4;
     -ms-grid-row-span: 1;
@@ -2816,7 +2821,7 @@ blockquote {
     grid-column-end: 2;
   }
 
-  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf89-a9f434f7 {
+  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf89-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -2827,14 +2832,14 @@ blockquote {
     grid-row-start: 3;
   }
 
-  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf8b-a9f434f7 {
+  #w-node-d64a41f4-3e68-0239-af06-30a8ace3bf8b-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 3;
     -ms-grid-column: 2;
     grid-column-start: 2;
   }
 
-  #w-node-ec5bd115-e475-f17d-c72d-b7058c0a7421-a9f434f7 {
+  #w-node-ec5bd115-e475-f17d-c72d-b7058c0a7421-761769a2 {
     -ms-grid-row: 4;
     grid-row-start: 4;
     -ms-grid-row-span: 1;
@@ -2845,7 +2850,7 @@ blockquote {
     grid-column-end: 2;
   }
 
-  #w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-a9f434f7 {
+  #w-node-b9b2be98-f814-b3af-3e06-8a5e606dc6ef-761769a2 {
     -ms-grid-column-span: 1;
     grid-column-end: 3;
     -ms-grid-column: 2;
