@@ -55,6 +55,15 @@ blockquote {
   line-height: 22px;
 }
 
+.recent-work {
+  display: flex;
+  align-items: space-between;
+}
+
+.recent-work>img{
+  width: 80%;
+}
+
 .navbar-container {
   display: -webkit-box;
   display: -webkit-flex;
