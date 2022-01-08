@@ -55,19 +55,29 @@ blockquote {
   line-height: 22px;
 }
 
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.test-container {
   width: 100%;
-  height: 100%;
+  display: flex;
+}
+
+.video-container {
+  width: 100%;
+  margin: 15px;
+}
+
+.project-container {
+  position: relative; 
+  padding-bottom: 49.21875%; 
+  height: 0;
 }
 
 .project-video {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
   border-radius: 25px;
-  padding: 15px;
-  width: 50%;
-  height: 450px;
 }
 
 .navbar-container {
