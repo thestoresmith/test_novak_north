@@ -71,29 +71,21 @@ blockquote {
   color: #EE7879 !important;
 }
 
-.test-container {
+.project-links-container {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.video-container {
-  width: 100%;
-  margin: 15px;
+.project-links-container>a {
+  width: 500px;
+  padding: 15px;
 }
 
-.project-container {
-  position: relative; 
-  padding-bottom: 49.21875%; 
-  height: 0;
-}
-
-.project-video {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%;
+.project-image {
   border-radius: 25px;
+  height: 100%;
 }
 
 .navbar-container {
