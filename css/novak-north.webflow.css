@@ -55,38 +55,6 @@ blockquote {
   line-height: 22px;
 }
 
-.green {
-  color: #cae7df !important;
-}
-
-.pt-25 {
-  padding-top: 25px;
-}
-
-.light-pink {
-  color: #F4ABAA !important;
-}
-
-.dark-pink {
-  color: #EE7879 !important;
-}
-
-.project-links-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.project-links-container>a {
-  width: 500px;
-  padding: 15px;
-}
-
-.project-image {
-  border-radius: 25px;
-}
-
 .navbar-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -490,7 +458,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/906\ Screenshot.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -575,6 +543,7 @@ blockquote {
   position: relative;
   z-index: 100;
   margin-top: 30px;
+  background-color: #ee7879;
 }
 
 .secondary-button {
@@ -646,6 +615,7 @@ blockquote {
 .primary-small-button.left-padding {
   margin-left: 20px;
   border: 1px solid #2a3166;
+  background-color: #cae7df;
   font-family: Raleway, sans-serif;
   font-weight: 700;
 }
@@ -730,6 +700,10 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -ms-grid-columns: -webkit-max-content;
+  -ms-grid-columns: max-content;
+  grid-template-columns: -webkit-max-content;
+  grid-template-columns: max-content;
 }
 
 .two-col-grid.eduction-skills {
@@ -780,7 +754,8 @@ blockquote {
   border-width: 1px;
   border-color: #fff;
   border-radius: 500px;
-  background-color: #dfe2ec;
+  background-color: rgba(42, 49, 102, 0.25);
+  color: #f4abaa;
 }
 
 .text-field:hover {
@@ -1054,8 +1029,8 @@ blockquote {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .image-about {
@@ -1294,9 +1269,10 @@ blockquote {
   border-width: 1px;
   border-color: #eff3fb;
   border-radius: 30px;
-  background-color: #f0f4fb;
+  background-color: rgba(42, 49, 102, 0.25);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
+  color: #f4abaa;
 }
 
 .textarea:hover {
@@ -1333,7 +1309,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1819,7 +1795,7 @@ blockquote {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 0px;
-    background-color: #2a3166ea;
+    background-color: #fff;
     box-shadow: 0 20px 60px 0 rgba(55, 68, 111, 0.4);
   }
 
@@ -2271,6 +2247,11 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+  .text-field {
+    background-color: rgba(42, 49, 102, 0.25);
+    color: #f4abaa;
+  }
+
   .large-bubble {
     left: -35%;
   }
@@ -2328,6 +2309,8 @@ blockquote {
   .textarea {
     width: 100%;
     min-width: 0px;
+    background-color: rgba(42, 49, 102, 0.25);
+    color: #f4abaa;
   }
 
   .asset-container {
