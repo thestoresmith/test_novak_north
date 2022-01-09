@@ -477,7 +477,25 @@ blockquote {
   background-image: url('../images/906\ Screenshot.png');
   background-position: 50% 50%;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.section.hero-project-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  min-height: 50vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Fresh\ Edge\ Screenshot.png');
+  background-position: 50% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
@@ -1038,6 +1056,11 @@ blockquote {
 
 .overlay.hero {
   background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.overlay.hero-2 {
+  background-color: rgba(0, 0, 0, 0.45);
   opacity: 1;
 }
 
