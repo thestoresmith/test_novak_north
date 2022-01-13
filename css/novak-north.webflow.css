@@ -79,8 +79,8 @@ blockquote {
   overflow: hidden;
   max-width: 1200px;
   margin: 20px auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 10px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -107,6 +107,8 @@ blockquote {
 
 .navbar-links li {
     list-style: none;
+    font-family: "Raleway";
+    font-weight: 700;
 }
 
 .a-link {
@@ -194,6 +196,10 @@ blockquote {
   margin-top: 20px !important;
 }
 
+.pr-20 {
+  padding-right: 24px;
+}
+
 .green {
   color: #cae7df !important;
   }
@@ -239,7 +245,7 @@ blockquote {
 .logo-text {
   font-family: 'Raleway';
   color: #cae7df;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
   font-weight: 700;
 }
