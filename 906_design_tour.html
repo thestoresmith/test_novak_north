@@ -17,20 +17,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active brand-logo">
+  
+  <nav class="navbar">
+    <a href="index.html" class="active brand-logo">
       <img src="images/compass.png" loading="lazy" sizes="40px" srcset="images/compass-p-500.png 500w, images/compass.png 512w" alt="" class="logo-icon">
       <div class="logo-text">Novak North</div>
     </a>
-    <a href="contact.html" class="contact-button contact1">Contact</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <!-- <a href="contact.html" class="contact-button contact2">Contact</a> -->
-    <a href="javascript:void(0);" class="icon" onclick="navToggle()">
-      <i class="fa fa-bars fa-lg"></i>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </a>
-  </div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html#About" class="a-link">About</a></li>
+        <li><a href="index.html#Services" class="a-link">Services</a></li>
+        <li><a href="index.html#Recent-work" class="a-link">Work</a></li>
+        <div class="contact-button">
+          <li><a href="contact.html" class="purple">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
   <div class="section hero-project wf-section">
     <div class="overlay hero"></div>
     <div class="center-container">
