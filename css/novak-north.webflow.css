@@ -178,11 +178,7 @@ blockquote {
     }
 
     .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links ul li:first-child {
-        margin-top: 10px;
+        padding: .25rem 1rem;
     }
 
     .contact-button {
@@ -191,6 +187,10 @@ blockquote {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .mobile-mt-10 {
+      margin-top: 10px;
     }
 }
 
