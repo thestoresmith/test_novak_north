@@ -152,7 +152,7 @@ blockquote {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 825px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -231,7 +231,7 @@ blockquote {
   margin-top: 5px;
 }
 
-.nav-overlay a:nth-child(4) {
+.nav-overlay a:nth-child(5) {
   margin-top: 15px;
   border-radius: 500px;
   background-color: #cae7df;
