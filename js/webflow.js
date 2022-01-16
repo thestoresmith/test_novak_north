@@ -20333,8 +20333,6 @@ const myElement = document.querySelector(".toggle-button");
 const myNav = document.getElementById("myNav");
 const navOverlay = document.querySelector(".nav-overlay");
 
-
-
 function openNav() {
   myNav.style.height = "100%";
   if (openNav) {
@@ -20350,24 +20348,20 @@ function closeNav() {
   }
 }
 
-function hideNav() {
-  myNav.style.height = "0%";
-}
-
 // let myElement = document.querySelector(".toggle-button");
 // myElement.style.display = "none";
 
 //Get the button:
-mybutton = document.getElementById("myBtn");
+myButton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-    mybutton.style.display = "block";
+    myButton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    myButton.style.display = "none";
   }
 }
 
