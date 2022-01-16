@@ -20,13 +20,13 @@
   
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-  <div id="myNav" class="overlay">
+  <div id="myNav" class="nav-overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="index.html#About" class="a-link" onclick="closeNav()">About</a>
+      <a href="index.html#Services" class="a-link" onclick="closeNav()">Services</a>
+      <a href="index.html#Recent-work" class="a-link" onclick="closeNav()">Work</a>
+      <a href="contact.html" class="mobile-btn">Contact</a>
     </div>
   </div>
 
@@ -35,7 +35,7 @@
       <img src="images/compass.png" loading="lazy" sizes="40px" srcset="images/compass-p-500.png 500w, images/compass.png 512w" alt="" class="logo-icon">
       <div class="logo-text">Novak North</div>
     </a>
-    <a href="#" class="toggle-button hide" onclick="openNav()">
+    <a href="#" class="toggle-button" onclick="openNav()">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>

@@ -20330,30 +20330,28 @@ $(function(){$("#navbar-placeholder").load("navbar.html");});Webflow.require('ix
 // })
 
 const myElement = document.querySelector(".toggle-button");
-const imageStyle = document.querySelector(".image");
-const dots = document.querySelector(".dots");
-const dotsTwo = document.querySelector(".dots2");
-const centerContainer = document.querySelector(".center-container");
+const myNav = document.getElementById("myNav");
+const navOverlay = document.querySelector(".nav-overlay");
+
 
 
 function openNav() {
-  document.getElementById("myNav").style.height = "100%";
+  myNav.style.height = "100%";
   if (openNav) {
     myElement.style.display = "none";
-    imageStyle.style.zIndex = "0";
-    dots.style.zIndex = "0";
-    dotsTwo.style.zIndex = "0";
-    centerContainer.style.zIndex = "git";
+    navOverlay.style.display = "block"
   }
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
+  myNav.style.height = "0%";
   if (closeNav) {
-    let myElement = document.querySelector(".toggle-button");
     myElement.style.display = "flex";
-    imageStyle.style.zIndex = "100";
   }
+}
+
+function hideNav() {
+  myNav.style.height = "0%";
 }
 
 // let myElement = document.querySelector(".toggle-button");

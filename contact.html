@@ -20,19 +20,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  
+  <div id="myNav" class="nav-overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html#About" class="a-link" onclick="closeNav()">About</a>
+      <a href="index.html#Services" class="a-link" onclick="closeNav()">Services</a>
+      <a href="index.html#Recent-work" class="a-link" onclick="closeNav()">Work</a>
+      <a href="contact.html" class="mobile-btn">Contact</a>
+    </div>
+  </div>
+
   <nav class="navbar">
     <a href="index.html" class="active brand-logo">
       <img src="images/compass.png" loading="lazy" sizes="40px" srcset="images/compass-p-500.png 500w, images/compass.png 512w" alt="" class="logo-icon">
       <div class="logo-text">Novak North</div>
     </a>
-    <a href="#" class="toggle-button">
+    <a href="#" class="toggle-button" onclick="openNav()">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="index.html#About" class="a-link">About</a></li>
+        <li><a href="index.html#About" class="a-link mobile-mt-10">About</a></li>
         <li><a href="index.html#Services" class="a-link">Services</a></li>
         <li><a href="index.html#Recent-work" class="a-link pr-20">Work</a></li>
         <div class="contact-button">
@@ -41,6 +52,7 @@
       </ul>
     </div>
   </nav>
+  
   <div class="section wf-section mb-75">
     <div class="container">
       <div class="center-container">
