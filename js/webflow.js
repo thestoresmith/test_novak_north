@@ -20348,13 +20348,8 @@ function closeNav() {
   }
 }
 
-// let myElement = document.querySelector(".toggle-button");
-// myElement.style.display = "none";
 
-//Get the button:
 myButton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -20365,8 +20360,70 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+const formValidate = () => {
+  let fullName = document.getElementById("name").value;
+  let userEmail = document.getElementById("email").value;
+  let userMessage = document.getElementById("message").value;
+
+
+  if(fullName.length < 2) {
+    Swal.fire({
+      title: 'Error!',
+      text: 'Please enter a valid name',
+      icon: 'error',
+      confirmButtonText: 'Okay'
+    })
+    return false
+  }
+  if(userEmail.length < 5) {
+    Swal.fire({
+      title: 'Error!',
+      text: 'Please enter a valid email',
+      icon: 'error',
+      confirmButtonText: 'Okay'
+    })
+    return false
+  }
+  if(userMessage.length < 5) {
+    Swal.fire({
+      title: 'Error!',
+      text: 'Please include contact form message',
+      icon: 'error',
+      confirmButtonText: 'Okay'
+    })
+    return false
+  }
+  return true
+}
+
+(function() {
+  emailjs.init("user_rQF8cs4fYnfBs2O7qJ0gs");
+  })();
+
+function sendmail() {
+  let fullName = document.getElementById("name").value;
+  let userEmail = document.getElementById("email").value;
+  let userMessage = document.getElementById("message").value;
+  let formButton = document.getElementById("submit-btn");
+
+      var contactParams = {
+          from_name: fullName,
+          from_email: userEmail,
+          message: userMessage
+      };
+      if (formValidate()) {
+        emailjs.send('gmail', 'portfolio', contactParams).then(function (res) {})
+        Swal.fire({
+          title: 'Success!',
+          text: 'Thank you for your email.',
+          icon: 'success',
+          confirmButtonText: 'Okay'
+        })
+        formButton.disabled = true;
+      }
 }

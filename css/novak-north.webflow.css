@@ -55,6 +55,15 @@ blockquote {
   line-height: 22px;
 }
 
+#error-name {
+  color: red;
+  text-align: center;
+}
+
+#error-email {
+  color: red;
+}
+
 #myBtn {
   display: none; 
   position: fixed; 
