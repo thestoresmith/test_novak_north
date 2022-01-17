@@ -220,7 +220,7 @@ blockquote {
 .nav-overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 24px;
   display: block;
   transition: 0.3s;
   font-family: "Raleway";
@@ -236,7 +236,7 @@ blockquote {
   border-radius: 500px;
   background-color: #cae7df;
   color: #2a3166;
-  width: 250px;
+  width: 150px;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -247,7 +247,7 @@ blockquote {
   color: #CAE7DF;
 }
 
-.nav-overlay a:nth-child(4):hover, .nav-overlay a.closebtn:hover {
+.nav-overlay a:nth-child(5):hover, .nav-overlay a.closebtn:hover {
   color: #EE7879;
 }
 
