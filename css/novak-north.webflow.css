@@ -312,6 +312,20 @@ blockquote {
   color: #2a3166 !important;
 }
 
+.project-info-container {
+  display: flex;
+  padding: 10px 0;
+}
+
+.project-date {
+  margin-right: 25px;
+}
+
+.key-feature-container > li {
+  text-align: left !important;
+  /* margin-right: 15px; */
+}
+
 .navbar-container {
   display: -webkit-box;
   display: -webkit-flex;

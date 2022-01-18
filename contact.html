@@ -19,7 +19,6 @@
   <link href="images/favicon.png" rel="apple-touch-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="sweetalert2.all.min.js"></script>
 </head>
 <body>
   
@@ -66,7 +65,7 @@
         <div class="small-container contact"></div>
         <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" onsubmit="formValidate()">
           <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="What&#x27;s your name?" id="name">
-          <input type="email" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Your best email address" id="email">
+          <input class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Your best email address" id="email">
           <textarea placeholder="What did you want to tell me?" maxlength="5000" id="message" name="field" data-name="Field" class="textarea w-input"></textarea>
           <button type="submit" value="Submit" data-wait="Please wait..." class="primary-button w-button" onclick="sendmail()" id="submit-btn">Submit</button>
         </form>
