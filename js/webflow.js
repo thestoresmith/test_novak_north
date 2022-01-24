@@ -20412,8 +20412,8 @@ function sendmail() {
   let formButton = document.getElementById("submit-btn");
 
       var contactParams = {
-          from_name: fullName,
-          from_email: userEmail,
+          user_name: fullName,
+          user_email: userEmail,
           message: userMessage
       };
       if (formValidate()) {
