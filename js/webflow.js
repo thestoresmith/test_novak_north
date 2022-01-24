@@ -20369,9 +20369,9 @@ const formValidate = () => {
   let fullName = document.getElementById("name").value;
   let userEmail = document.getElementById("email").value;
   let userMessage = document.getElementById("message").value;
+  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-
-  if(fullName.length < 2) {
+  if(fullName.length < 1) {
     Swal.fire({
       title: 'Error!',
       text: 'Please enter a valid name',
@@ -20380,7 +20380,7 @@ const formValidate = () => {
     })
     return false
   }
-  if(userEmail.length < 5) {
+  if(!userEmail.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
       text: 'Please enter a valid email',
@@ -20389,7 +20389,7 @@ const formValidate = () => {
     })
     return false
   }
-  if(userMessage.length < 5) {
+  if(userMessage.length < 1) {
     Swal.fire({
       title: 'Error!',
       text: 'Please include contact form message',
