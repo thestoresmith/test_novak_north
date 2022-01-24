@@ -20402,7 +20402,7 @@ const formValidate = () => {
 }
 
 (function() {
-  emailjs.init("user_rQF8cs4fYnfBs2O7qJ0gs");
+  emailjs.init("user_3pb4we0Di0cM55SGSampr");
   })();
 
 function sendmail() {
@@ -20417,7 +20417,7 @@ function sendmail() {
           message: userMessage
       };
       if (formValidate()) {
-        emailjs.send('gmail', 'portfolio', contactParams).then(function (res) {})
+        emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
         Swal.fire({
           title: 'Success!',
           text: 'Thank you for your email.',
