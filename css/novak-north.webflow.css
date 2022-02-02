@@ -1214,6 +1214,7 @@ blockquote {
   background-color: #cae7df;
   box-shadow: 0 30px 40px 0 rgba(145, 150, 203, 0.2);
   text-align: center;
+  width: 100%;
 }
 
 .feature.alt-feature {
