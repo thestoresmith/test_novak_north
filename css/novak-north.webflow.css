@@ -2691,6 +2691,7 @@ blockquote {
 
   .list-item {
     text-align: left;
+    padding-bottom: 2px;
   }
 }
 
