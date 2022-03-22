@@ -9,7 +9,9 @@ const formValidate = () => {
       title: 'Error!',
       text: 'Please enter a valid name',
       icon: 'error',
-      confirmButtonText: 'Okay'
+      confirmButtonText: 'Okay',
+      background: '#2a3166ef',
+      color: '#F27475'
     })
     return false
   }
@@ -18,7 +20,9 @@ const formValidate = () => {
       title: 'Error!',
       text: 'Please enter a valid email',
       icon: 'error',
-      confirmButtonText: 'Okay'
+      confirmButtonText: 'Okay',
+      background: '#2a3166ef',
+      color: '#F27475'
     })
     return false
   }
@@ -27,7 +31,9 @@ const formValidate = () => {
       title: 'Error!',
       text: 'Please include contact form message',
       icon: 'error',
-      confirmButtonText: 'Okay'
+      confirmButtonText: 'Okay',
+      background: '#2a3166ef',
+      color: '#F27475'
     })
     return false
   }
@@ -55,7 +61,9 @@ function sendmail() {
           title: 'Success!',
           text: 'Thank you for your email.',
           icon: 'success',
-          confirmButtonText: 'Okay'
+          confirmButtonText: 'Okay',
+          background: '#2a3166ef',
+          color: '#F27475'
         })
         formButton.disabled = true;
       }
