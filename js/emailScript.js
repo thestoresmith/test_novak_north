@@ -50,21 +50,21 @@ function sendmail() {
   let userMessage = document.getElementById("message").value;
   let formButton = document.getElementById("submit-btn");
 
-      var contactParams = {
-          user_name: fullName,
-          user_email: userEmail,
-          message: userMessage
-      };
-      if (formValidate()) {
-        emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
-        Swal.fire({
-          title: 'Success!',
-          text: 'Thank you for your email.',
-          icon: 'success',
-          confirmButtonText: 'Okay',
-          background: '#2a3166ef',
-          color: '#F27475'
-        })
-        formButton.disabled = true;
-      }
+  var contactParams = {
+      user_name: fullName,
+      user_email: userEmail,
+      message: userMessage
+  };
+  if (formValidate()) {
+    emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
+    Swal.fire({
+      title: 'Success!',
+      text: 'Thank you for your email.',
+      icon: 'success',
+      confirmButtonText: 'Okay',
+      background: '#2a3166ef',
+      color: '#F27475'
+    })
+    formButton.disabled = true;
+  }
 }
