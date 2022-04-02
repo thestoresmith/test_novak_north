@@ -44,7 +44,7 @@ const formValidate = () => {
   emailjs.init("user_3pb4we0Di0cM55SGSampr");
   })();
 
-function sendmail() {
+function sendEmail() {
   let fullName = document.getElementById("name").value;
   let userEmail = document.getElementById("email").value;
   let userMessage = document.getElementById("message").value;
