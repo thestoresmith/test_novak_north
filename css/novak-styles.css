@@ -81,7 +81,7 @@ blockquote {
 }
 
 #myBtn:hover {
-  background-color: #555; 
+  opacity: .75;
 }
 
 .navbar {
@@ -102,6 +102,11 @@ blockquote {
   align-items: center;
   text-decoration: none;
   margin: .5rem;
+}
+
+.brand-logo:hover {
+  cursor: pointer;
+  opacity: .75;
 }
 
 .navbar-links {
@@ -869,7 +874,9 @@ blockquote {
 }
 
 .primary-button:hover {
-  background-color: #4f1fff;
+  cursor: pointer;
+  opacity: .75;
+  background-color: #ee7879;
 }
 
 .primary-button.top-margin {
@@ -877,6 +884,12 @@ blockquote {
   z-index: 100;
   margin-top: 30px;
   background-color: #ee7879;
+}
+
+.primary-pink-button:hover {
+  cursor: pointer;
+  opacity: .75;
+  background-color: #cae7df;
 }
 
 .secondary-button {
