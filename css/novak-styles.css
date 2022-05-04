@@ -131,11 +131,8 @@ blockquote {
   color: #CAE7DF;
 }
 
-
 .toggle-button {
-    
     display: none;
-    
 }
 
 .toggle-button .bar {
@@ -143,6 +140,11 @@ blockquote {
     width: 100%;
     background-color: #CAE7DF;
     border-radius: 10px;
+}
+
+.toggle-button:hover {
+  cursor: pointer;
+  opacity: .65; 
 }
 
 .contact-button {
@@ -154,7 +156,12 @@ blockquote {
   height: 35px;
   width: 100px;
   margin-top: 12.5px;
-  
+}
+
+.contact-button:hover {
+  cursor: pointer;
+  opacity: .75;
+  background-color: #EE7879;
 }
 
 .contact-button li a {
@@ -253,11 +260,12 @@ blockquote {
 }
 
 .nav-overlay a:not(.closebtn):hover, .nav-overlay a:focus {
-  color: #CAE7DF;
+  color: #EE7879;
 }
 
 .nav-overlay a:nth-child(5):hover, .nav-overlay a.closebtn:hover {
-  color: #EE7879;
+  color: #CAE7DF;
+  opacity: .75;
 }
 
 .nav-overlay .closebtn {
@@ -265,7 +273,7 @@ blockquote {
   top: 1rem;
   right: 1rem;
   font-size: 60px;
-  color: #CAE7DF;
+  color: #EE7879;
 }
 
 
