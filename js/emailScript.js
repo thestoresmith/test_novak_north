@@ -1,10 +1,20 @@
-const formValidate = () => {
-  let fullName = document.getElementById("name").value;
-  let userEmail = document.getElementById("email").value;
-  let userMessage = document.getElementById("message").value;
-  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+const fullName = document.getElementById("name");
+const userEmail = document.getElementById("email");
+const userMessage = document.getElementById("message");
+const formButton = document.getElementById("submit-btn");
+const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-  if(fullName.length < 1) {
+(function() {
+  emailjs.init("user_3pb4we0Di0cM55SGSampr");
+  })();
+
+function sendEmail() {
+  var contactParams = {
+      user_name: fullName.value,
+      user_email: userEmail.value,
+      message: userMessage.value
+  };
+  if(fullName.value.length < 1) {
     Swal.fire({
       title: 'Error!',
       text: 'Please enter a valid name',
@@ -14,8 +24,7 @@ const formValidate = () => {
       color: '#F27475'
     })
     return false
-  }
-  if(!userEmail.match(emailRegex)) {
+  } else if(!userEmail.value.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
       text: 'Please enter a valid email',
@@ -25,8 +34,7 @@ const formValidate = () => {
       color: '#F27475'
     })
     return false
-  }
-  if(userMessage.length < 1) {
+  } else if(userMessage.value.length < 1) {
     Swal.fire({
       title: 'Error!',
       text: 'Please include contact form message',
@@ -36,26 +44,7 @@ const formValidate = () => {
       color: '#F27475'
     })
     return false
-  }
-  return true
-}
-
-(function() {
-  emailjs.init("user_3pb4we0Di0cM55SGSampr");
-  })();
-
-function sendEmail() {
-  let fullName = document.getElementById("name").value;
-  let userEmail = document.getElementById("email").value;
-  let userMessage = document.getElementById("message").value;
-  let formButton = document.getElementById("submit-btn");
-
-  var contactParams = {
-      user_name: fullName,
-      user_email: userEmail,
-      message: userMessage
-  };
-  if (formValidate()) {
+  } else {
     emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
     Swal.fire({
       title: 'Success!',
@@ -66,5 +55,7 @@ function sendEmail() {
       color: '#F27475'
     })
     formButton.disabled = true;
+    formButton.classList.add('primary-button-disabled-color');
+    formButton.innerText = 'Thank you for your submission!'
   }
 }
