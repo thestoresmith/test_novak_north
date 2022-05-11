@@ -879,6 +879,11 @@ blockquote {
   background-color: #ee7879;
 }
 
+.primary-button-disabled-color {
+  background-color: #ee7879;
+  opacity: 1 !important;
+}
+
 .primary-button.top-margin {
   position: relative;
   z-index: 100;
