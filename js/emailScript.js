@@ -26,8 +26,6 @@ function sendEmail() {
       color: '#F27475'
     })
 
-    return false
-
   } else if(!userEmail.value.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
@@ -38,8 +36,6 @@ function sendEmail() {
       color: '#F27475'
     })
 
-    return false
-
   } else if(!userMessage.value) {
     Swal.fire({
       title: 'Error!',
@@ -49,8 +45,6 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
-
-    return false
 
   } else {
     emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
