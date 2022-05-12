@@ -9,12 +9,14 @@ const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0
   })();
 
 function sendEmail() {
-  var contactParams = {
+  // contactParams are what is being used in the emailjs.send function and being connected to template as dynamic variables on the back end
+  const contactParams = {
       user_name: fullName.value,
       user_email: userEmail.value,
       message: userMessage.value
   };
-  if(fullName.value.length < 1) {
+
+  if(!fullName.value) {
     Swal.fire({
       title: 'Error!',
       text: 'Please enter a valid name',
@@ -23,7 +25,9 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
+
     return false
+
   } else if(!userEmail.value.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
@@ -33,8 +37,10 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
+
     return false
-  } else if(userMessage.value.length < 1) {
+
+  } else if(!userMessage.value) {
     Swal.fire({
       title: 'Error!',
       text: 'Please include contact form message',
@@ -43,7 +49,9 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
+
     return false
+
   } else {
     emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
     Swal.fire({
@@ -54,6 +62,7 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
+    
     formButton.disabled = true;
     formButton.classList.add('primary-button-disabled-color');
     formButton.innerText = 'Thank you for your submission!'
