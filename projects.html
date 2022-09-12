@@ -20,35 +20,40 @@
   <link href="images/webclip.svg" rel="apple-touch-icon">
 </head>
 <body>
-  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
-    <div class="navbar-container">
-      <a href="index.html" class="brand w-nav-brand"><img src="images/compass.png" loading="lazy" sizes="40px" srcset="images/compass-p-500.png 500w, images/compass.png 512w" alt="" class="logo-icon">
-        <div class="logo-text">Novak North</div>
-      </a>
-      <div class="nav-menu">
-        <a href="index.html" class="nav-link w-inline-block"></a>
-      </div>
-      <div class="menu-button w-nav-button">
-        <div data-w-id="ed16fb04-2366-652c-60b2-d81694f53024" class="burger-icon">
-          <div class="top-burger-line"></div>
-          <div class="middle-burger-line"></div>
-          <div class="bottom-burger-line"></div>
-        </div>
-      </div>
-      <div class="nav-menu">
-        <a href="index.html" data-w-id="bef64f0a-1bd8-eef8-8807-4244dd986935" class="nav-link w-inline-block">
-          <div>About</div>
-        </a>
-        <a href="#" class="nav-link w-inline-block">
-          <div>Services</div>
-        </a>
-        <a href="#" class="nav-link w-inline-block">
-          <div>Work</div>
-        </a>
-        <a href="contact.html" class="primary-small-button left-padding w-button">Contact</a>
-      </div>
+  <div id="myNav" class="nav-overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/#Services" class="a-link" onclick="closeNav()">Services</a>
+      <a href="/#Recent-work" class="a-link" onclick="closeNav()">Work</a>
+      <a href="/#About" class="a-link" onclick="closeNav()">About</a>
+      <a href="/#Education" class="a-link" onclick="closeNav()">Education & Skills</a>
+      <a href="./pages/contact.html" class="mobile-btn">Contact</a>
     </div>
   </div>
+
+  <nav class="navbar">
+    <a href="/" class="active brand-logo">
+      <img src="images/compass.png" loading="lazy" sizes="40px" srcset="images/compass-p-500.png 500w, images/compass.png 512w" alt="" class="logo-icon">
+      <div class="logo-text">Novak North</div>
+    </a>
+    <a href="#" class="toggle-button" onclick="openNav()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/#Services" class="a-link">Services</a></li>
+        <li><a href="/#Recent-work" class="a-link pr-20">Work</a></li>
+        <li><a href="/#About" class="a-link mobile-mt-10">About</a></li>
+        <li><a href="/#Education" class="a-link">Education & Skills</a></li>
+        <div class="contact-button">
+          <li><a href="./pages/contact.html" class="purple">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  
   <div class="section wf-section">
     <div class="container">
       <div class="breadcrumbs">
@@ -100,7 +105,7 @@
     </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61b61c6e3bc0c58472b6461c" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
