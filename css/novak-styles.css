@@ -1383,10 +1383,6 @@ blockquote {
   opacity: 1;
 }
 
-.overlay-project {
-  background-color: cornflowerblue;
-}
-
 .image-project {
   position: absolute;
   width: 100%;
