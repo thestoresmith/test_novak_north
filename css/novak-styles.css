@@ -888,13 +888,6 @@ blockquote {
   position: relative;
   z-index: 100;
   margin-top: 30px;
-  background-color: #ee7879;
-}
-
-.primary-pink-button:hover {
-  cursor: pointer;
-  opacity: .75;
-  background-color: #cae7df;
 }
 
 .secondary-button {
