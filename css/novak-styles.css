@@ -742,11 +742,11 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/906-Screenshot.png');
+  /* background-image: url('../images/906-Screenshot.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll; */
 }
 
 .section.hero-project-2 {
@@ -797,6 +797,14 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-image: url('../images/credit_card_screenshot.png');
+  background-position: 50% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.muob-background {
+  background-image: url('../images/muob-screenshot.png');
   background-position: 50% 40%;
   background-size: cover;
   background-repeat: no-repeat;
