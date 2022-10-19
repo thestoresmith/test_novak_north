@@ -218,7 +218,6 @@ blockquote {
 }
 
 .nav-overlay {
-  display: none;
   height: 0;
   width: 100%;
   position: fixed;
