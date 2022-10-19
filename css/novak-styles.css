@@ -1340,6 +1340,11 @@ blockquote {
   opacity: 1;
 }
 
+.overlay.hero-muob {
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 1;
+}
+
 .image-project {
   position: absolute;
   width: 100%;
