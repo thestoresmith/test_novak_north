@@ -161,6 +161,7 @@ blockquote {
   height: 35px;
   width: 100px;
   margin-top: 12.5px;
+  margin-left: 10px;
 }
 
 .contact-button:hover {
