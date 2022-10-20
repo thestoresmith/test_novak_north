@@ -69,7 +69,7 @@ blockquote {
   position: fixed; 
   bottom: 20px; 
   right: 30px; 
-  z-index: 99; 
+  z-index: 99;
   border: none; 
   outline: none; 
   background-color: #7856ff; 
@@ -788,6 +788,19 @@ blockquote {
 
 .section.hide {
   display: none;
+}
+
+.custom-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  position: relative;
+  z-index: 100;
+  color: #9498a6;
+  font-size: 16px;
+  margin: 10px;
 }
 
 .small-title {
