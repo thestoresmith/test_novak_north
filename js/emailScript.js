@@ -1,7 +1,7 @@
 const fullName = document.getElementById("name");
 const userEmail = document.getElementById("email");
 const userMessage = document.getElementById("message");
-const formButton = document.getElementById("submit-btn");
+const submitBtn = document.getElementById("submit-btn");
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 (function() {
@@ -56,9 +56,8 @@ function sendEmail() {
       background: '#2a3166ef',
       color: '#F27475'
     })
-    
-    formButton.disabled = true;
-    formButton.classList.add('primary-button-disabled-color');
-    formButton.innerText = 'Thank you for your submission!'
+    submitBtn.disabled = true;
+    submitBtn.classList.add('primary-button-disabled-color');
+    submitBtn.innerText = 'Thank you for your submission!'
   }
 }
