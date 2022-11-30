@@ -793,7 +793,6 @@ blockquote {
 
 .custom-footer {
   display: flex;
-  flex-direction: column;
 }
 
 .footer-text {
