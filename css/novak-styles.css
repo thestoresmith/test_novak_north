@@ -75,7 +75,7 @@ blockquote {
   background-color: #7856ff; 
   color: white;
   cursor: pointer; 
-  padding: 15px; 
+  padding: 10px 20px; 
   border-radius: 10px; 
   font-size: 18px;
 }
@@ -793,6 +793,8 @@ blockquote {
 
 .custom-footer {
   display: flex;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .footer-text {
