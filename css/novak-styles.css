@@ -72,7 +72,7 @@ blockquote {
   z-index: 1000;
   border: none; 
   outline: none; 
-  background-color: #7856ff; 
+  background-color: #995bf0;
   color: white;
   cursor: pointer; 
   padding: 10px 20px; 
@@ -3211,3 +3211,41 @@ blockquote {
   }
 }
 
+.marquee {
+  border-top: 2px solid #995bf0;
+  border-bottom: 2px solid #995bf0;
+  height: 67px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee .content {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: #995bf0;
+}
+
+.marquee span {
+  padding: 0 2em;
+}
+
+.section-marquee {
+  padding: 30px 0;
+}
