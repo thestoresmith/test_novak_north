@@ -2529,7 +2529,7 @@ blockquote {
 @media screen and (max-width: 479px) {
   .h4 {
     font-weight: 500;
-    white-space: break-spaces;
+    /* white-space: break-spaces; */
   }
 
   .styleguide-grid {
