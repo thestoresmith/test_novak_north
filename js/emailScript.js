@@ -47,7 +47,10 @@ function sendEmail() {
     })
 
   } else {
-    emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {})
+    emailjs.send('gmail', 'template_p5d2mln', contactParams).then(function (res) {
+      console.log(res);
+    });
+
     Swal.fire({
       title: 'Success!',
       text: 'Thank you for your email.',
