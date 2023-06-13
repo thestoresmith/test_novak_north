@@ -325,9 +325,21 @@ blockquote {
   color: #2a3166 !important;
 }
 
-.project-info-container {
-  display: flex;
-  padding: 10px 0;
+@media screen and (min-width: 550px) {
+  .project-info-container {
+    display: flex;
+    padding: 10px 0;
+  }
+}
+
+.project-info-container .text {
+  text-align: left;
+}
+
+@media screen and (max-width: 550px) {
+  .project-date {
+    margin-bottom: 10px;
+  }
 }
 
 .project-date {
@@ -771,6 +783,16 @@ blockquote {
 .muob-background {
   background-image: url('../images/muob-screenshot.png');
   background-position: 50% 40%;
+}
+
+.otto-background {
+  background-image: url('../images/otto_screenshot.png');
+  background-position: 50% 40%;
+}
+
+.oils-earth-background {
+  background-image: url('../images/oils_earth_screenshot.png');
+  background-position: 50% 20% !important;
 }
 
 .section.grey {
@@ -3245,8 +3267,17 @@ blockquote {
 
 .marquee span {
   padding: 0 2em;
+  text-transform: uppercase;
 }
 
 .section-marquee {
   padding: 30px 0;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.info-flex {
+  justify-content: space-between;
 }
