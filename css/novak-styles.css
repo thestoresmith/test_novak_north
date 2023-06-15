@@ -795,6 +795,21 @@ blockquote {
   background-position: 50% 20% !important;
 }
 
+.marly-bird-background {
+  background-image: url('../images/maryl_bird_screenshot.png');
+  background-position: 50% 20% !important;
+}
+
+.sosoak-background {
+  background-image: url('../images/sosoak_screenshot.png');
+  background-position: 50% 20% !important;
+}
+
+.ourside-background {
+  background-image: url('../images/ourside_screenshot.png');
+  background-position: 50% 20% !important;
+}
+
 .section.grey {
   padding-bottom: 80px;
   background-color: #fff;
