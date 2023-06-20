@@ -749,7 +749,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  min-height: 50vh;
+  min-height: 60vh;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -758,7 +758,30 @@ blockquote {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+}
 
+@media screen and (min-width: 1300px) {
+  .section.hero-project {
+    min-height: 80vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section.hero-project {
+    min-height: 30vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section.hero-project {
+    min-height: 25vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section.hero-project {
+    min-height: 20vh;
+  }
 }
 
 .ninezerosix-background {
