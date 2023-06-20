@@ -833,6 +833,11 @@ blockquote {
   background-position: 50% 20% !important;
 }
 
+.randi-clemens-background {
+  background-image: url('../images/randi_clemens_screenshot.png');
+  background-position: 50% 20% !important;
+}
+
 .section.grey {
   padding-bottom: 80px;
   background-color: #fff;
@@ -1424,9 +1429,15 @@ blockquote {
 .image-project {
   position: absolute;
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+@media screen and (max-width: 991px) {
+  .image-project {
+    height: auto;
+  }
 }
 
 .image-about {
